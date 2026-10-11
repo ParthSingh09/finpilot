@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database files (local runtime)
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.netlify/
+
+# System / IDE
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.log
